@@ -71,6 +71,7 @@ extract net install ISO contents to /srv/tftp/boot/grub/distros/debian-installer
 extract net install ISO contents to /srv/tftp/boot/grub/distros/ubuntu-installer/xenial  
   
 ### For fedora-installer:  
+`wget https://download.fedoraproject.org/pub/fedora/linux/releases/28/Workstation/x86_64/iso/Fedora-Workstation-netinst-x86_64-28-1.1.iso`  
 `mkdir -p /srv/tftp/boot/grub/distros/fedora-installer`  
 extract Fedora-Workstation-netinst-x86_64-27-1.6.iso to /srv/tftp/boot/grub/distros/fedora-installer  
   
