@@ -1,10 +1,10 @@
 #!/bin/sh
 
-DISTRO_FOLDER='ubuntu-18_04'
-DISTRO_URL='http://releases.ubuntu.com/18.04/ubuntu-18.04-desktop-amd64.iso'
+DISTRO_FOLDER='ubuntu-16_04'
+DISTRO_URL='http://releases.ubuntu.com/16.04/ubuntu-16.04.4-desktop-amd64.iso'
 DISTRO_FILE="${DISTRO_URL##*/}"
 
-DISTRO_SHA256SUMS_URL=http://releases.ubuntu.com/18.04/SHA256SUMS
+DISTRO_SHA256SUMS_URL=http://releases.ubuntu.com/16.04/SHA256SUMS
 DISTRO_SHA256SUMS_FILE="${DISTRO_SHA256SUMS_URL##*/}"
 
 # Check if DISTRO_FOLDER EXISTS
